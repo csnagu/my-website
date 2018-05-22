@@ -2,15 +2,36 @@ body{
     font: 14px/2.0
     font-family　-apple-system, BlinkMacSystemFont, "Helvetica Neue", "Segoe UI","Noto Sans Japanese","ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
     margin:10px;
-    color:#313131;
+    width: 100%;
+    color: #666;
     }
 
+a{
+    color:rgb(101, 193, 236);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+a:visited{
+    /* color:rgb(45, 103, 189); */
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+a:hover {
+    color: #F5A862;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
 h1 {
+    text-align: center;
     font-size:  45px;
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 0.8em;
 }
 
 /***** NAV *****/
@@ -25,17 +46,20 @@ nav ul{
 }
 nav li{
     display: inline-block;
-    margin: 0px 5px;
+    margin: 0px 0px;
     padding: 10px;
     line-height: 20px;
     color: #313131;
     cursor: pointer;
 }
-
 nav li:hover{
-    background-color: rgb(37, 144, 206);
-    transition: background-color 0.5s ease-out;
-    color: #fff;
+    background-color: rgb(132, 196, 233);
+    transition: background-color 0.3s ease-out;
+    color: #ffffff;
+    border-radius:5px;
+}
+nav li:hover a{
+    color: #FFF;
 }
 
 /****** profile ******/
