@@ -83,14 +83,24 @@ article h1{
     padding-top: 10px;
     border-bottom: 1px solid #bababa;
     margin-bottom: 15px;
-    /* float: left; */
+    float: left;
+}
+article h2{
+    width: 100%;
+    font-size: 120%;
+    color: #313131;
+    letter-spacing: 3px;
+    padding-top: 10px;
+    margin-bottom: 10px;
+    float: left;
 }
 article p{
     font-size: 100%;
     color: #313131;
     letter-spacing: 3px;
-    line-height: 200%;
+    line-height: 150%;
     margin-bottom: 10px;
+    padding-left: 10px;
     float: left;
 }
 /****** profile ******/
