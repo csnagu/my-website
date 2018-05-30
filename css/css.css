@@ -67,7 +67,8 @@ section{
     min-width: 300px;
     margin: 20px auto;
     overflow: hidden;
-    border: 1px solid #333;
+    /* border-top: 1px solid #bababa; */
+    /* border: 1px solid #333;  */
 }
 article{
     padding: 2.5%;
@@ -92,6 +93,7 @@ article h2{
     letter-spacing: 3px;
     padding-top: 10px;
     margin-bottom: 10px;
+    text-decoration: underline;
     float: left;
 }
 article p{
